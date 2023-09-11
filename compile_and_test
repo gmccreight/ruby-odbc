@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ruby -C ext extconf.rb --with-odbc-dir=/opt/homebrew/opt/unixodbc
+make -C ext
+make -C ext install
+(
+  cd test
+  ruby -I ../lib test_gordon.rb "MySnowflakeDSN"
+)
