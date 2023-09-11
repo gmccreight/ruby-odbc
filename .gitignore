@@ -1,0 +1,8 @@
+.DS_Store
+
+ext/.sitearchdir.time
+ext/Makefile
+ext/init.o
+ext/mkmf.log
+ext/odbc.bundle
+ext/odbc.o
