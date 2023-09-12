@@ -145,8 +145,9 @@ static VALUE rb_encv = Qnil;
 #define NO_RB_STR2CSTR 1
 #endif
 
+# define TRACING
 #ifdef TRACING
-static int tracing = 0;
+static int tracing = 1;
 #define tracemsg(t, x) {if (tracing & t) { x }}
 static SQLRETURN tracesql(SQLHENV henv, SQLHDBC hdbc, SQLHSTMT hstmt,
 			  SQLRETURN ret, const char *m);
