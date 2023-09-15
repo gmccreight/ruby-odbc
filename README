@@ -1,5 +1,5 @@
 This is a special version of ruby-odbc intended for testing
-purposes.  It contains a .ruby_version file that locks it to 3.0.5
+purposes.  It contains a .ruby-version file that locks it to 3.0.5
 and a ./compile_and_test script that tests the connection.
 
 
