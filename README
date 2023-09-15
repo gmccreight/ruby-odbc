@@ -1,3 +1,19 @@
+This is a special version of ruby-odbc intended for testing
+purposes.  It contains a .ruby_version file that locks it to 3.0.5
+and a ./compile_and_test script that tests the connection.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # $Id: README,v 1.47 2020/12/25 21:47:43 chw Exp chw $
 
 ruby-odbc-0.999991
