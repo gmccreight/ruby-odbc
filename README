@@ -1,6 +1,23 @@
+
+
+
 This is a special version of ruby-odbc intended for testing
 purposes.  It contains a .ruby-version file that locks it to 3.0.5
 and a ./compile_and_test script that tests the connection.
+
+The https://github.com/gmccreight/unixodbc_homebrew_test repo
+installs a custom version of unixodbc for testing via homebrew,
+then it will run the ./compile_and_test script in this repo to
+see if things work or not.
+
+
+
+
+
+
+
+
+
 
 
 
